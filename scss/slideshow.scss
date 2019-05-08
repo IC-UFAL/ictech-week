@@ -3,7 +3,7 @@
 @import '../vendor/fontawesome-free/scss/solid';
 
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
-$num-of-slide: 5;
+$num-of-slide: 3;
 
 .wrapper {
   max-width: 60em;
@@ -43,7 +43,7 @@ article {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #fff;
+    background: #bfbfbf;
     opacity: 0.7;
 
     &:hover {
