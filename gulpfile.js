@@ -6,6 +6,7 @@ const browsersync = require("browser-sync").create();
 const cleanCSS = require("gulp-clean-css");
 const del = require("del");
 const gulp = require("gulp");
+const bourbon = require("bourbon").includePaths;
 const header = require("gulp-header");
 const merge = require("merge-stream");
 const plumber = require("gulp-plumber");
@@ -77,7 +78,7 @@ function css() {
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",
-      includePaths: "./node_modules",
+      includePaths: ["./node_modules", bourbon],
     }))
     .on("error", sass.logError)
     .pipe(autoprefixer({
