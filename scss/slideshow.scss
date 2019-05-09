@@ -145,9 +145,10 @@ article {
 }
 
 %bind-next-button {
-  content: "\f105";
   @extend %bind-prev-next-button;
-  padding-left: 15px;
+  content: ">";
+  padding-left: 5px;
+  font-family: monospace;
 }
 
 %bind-next-label {
@@ -163,9 +164,9 @@ article {
 }
 
 %bind-prev-button {
-  content: "\f104";
   @extend %bind-prev-next-button;
-  padding-left: 8px;
+  content: "<";
+  font-family: monospace;
 }
 
 %bind-background-active-dot {
