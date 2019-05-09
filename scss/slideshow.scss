@@ -1,4 +1,5 @@
 @import "bourbon";
+@import "variables";
 
 @import '../vendor/fontawesome-free/scss/solid.scss';
 @import '../vendor/fontawesome-free/scss/fontawesome.scss';
@@ -148,7 +149,8 @@ article {
   @extend %bind-prev-next-button;
   content: ">";
   padding-left: 5px;
-  font-family: monospace;
+  font-family: Consolas, cursive;
+  font-size: 35px;
 }
 
 %bind-next-label {
@@ -166,7 +168,8 @@ article {
 %bind-prev-button {
   @extend %bind-prev-next-button;
   content: "<";
-  font-family: monospace;
+  font-family: Consolas, cursive;
+  font-size: 35px;
 }
 
 %bind-background-active-dot {
