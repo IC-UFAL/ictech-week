@@ -1,6 +1,7 @@
 @import "bourbon";
 
-@import '../vendor/fontawesome-free/scss/solid';
+@import '../vendor/fontawesome-free/scss/solid.scss';
+@import '../vendor/fontawesome-free/scss/fontawesome.scss';
 
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 $num-of-slide: 3;
@@ -132,7 +133,7 @@ article {
 
 /*---- SET POSITION FOR SLIDE ----*/
 %bind-prev-next-button {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome\ 5 Free';
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
@@ -144,8 +145,8 @@ article {
 }
 
 %bind-next-button {
-  @extend %bind-prev-next-button;
   content: "\f105";
+  @extend %bind-prev-next-button;
   padding-left: 15px;
 }
 
@@ -162,8 +163,8 @@ article {
 }
 
 %bind-prev-button {
-  @extend %bind-prev-next-button;
   content: "\f104";
+  @extend %bind-prev-next-button;
   padding-left: 8px;
 }
 
