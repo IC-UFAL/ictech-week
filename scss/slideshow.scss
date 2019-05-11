@@ -169,7 +169,7 @@ article {
 %bind-prev-button {
   @extend %bind-prev-next-button;
   content: "<";
-  font-family: Consolas, cursive;
+  font-family: Consolas, Monospaced, monospace;
   font-size: 35px;
 }
 
