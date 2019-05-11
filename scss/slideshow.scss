@@ -5,7 +5,7 @@
 @import '../vendor/fontawesome-free/scss/fontawesome.scss';
 
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
-$num-of-slide: 3;
+$num-of-slide: 12;
 
 .wrapper {
   max-width: 60em;
@@ -117,7 +117,8 @@ article {
 
 /* Slider Styling */
 .slider-wrapper {
-  width: 100%;
+  margin: auto;
+  width: 65%;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 1px 1px 4px #666;
