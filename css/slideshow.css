@@ -5880,7 +5880,7 @@ article img {
 #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(6)::after, #slide6:checked ~ .slider-prev-next-control label:nth-child(7)::after, #slide7:checked ~ .slider-prev-next-control label:nth-child(8)::after, #slide8:checked ~ .slider-prev-next-control label:nth-child(9)::after, #slide9:checked ~ .slider-prev-next-control label:nth-child(10)::after, #slide10:checked ~ .slider-prev-next-control label:nth-child(11)::after, #slide11:checked ~ .slider-prev-next-control label:nth-child(12)::after, #slide12:checked ~ .slider-prev-next-control label:nth-child(1)::after {
   content: ">";
   padding-left: 5px;
-  font-family: Consolas, cursive;
+  font-family: Consolas, Monospaced, monospace;
   font-size: 35px;
 }
 
