@@ -5732,7 +5732,7 @@ readers do not read off random characters that represent icons */
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
   max-width: 60em;
-  margin: 1em auto;
+  margin: 1em auto 4em auto;
   position: relative;
 }
 

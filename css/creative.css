@@ -10743,6 +10743,7 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
+  padding: 0 8px;
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
@@ -16477,7 +16478,7 @@ readers do not read off random characters that represent icons */
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
   max-width: 60em;
-  margin: 1em auto;
+  margin: 1em auto 4em auto;
   position: relative;
 }
 
